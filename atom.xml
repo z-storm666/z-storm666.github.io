@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>雒河桥南</title>
+  
+  <subtitle>There is no royal ways to success!</subtitle>
+  <link href="https://z-storm666.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://z-storm666.github.io/"/>
+  <updated>2023-04-21T18:01:44.844Z</updated>
+  <id>https://z-storm666.github.io/</id>
+  
+  <author>
+    <name>枫叶城南</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Typora绿化版分享&amp;markdown的使用说明</title>
+    <link href="https://z-storm666.github.io/2023/04/21/Typora/"/>
+    <id>https://z-storm666.github.io/2023/04/21/Typora/</id>
+    <published>2023-04-21T08:09:38.000Z</published>
+    <updated>2023-04-21T18:01:44.844Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Typora-是一款支持实时预览的-Markdown-文本编辑器，在开始收费之前可能是国内最常用的-Markdown-编辑器之一，有-OS-X、Windows、Linux-三个平台的版本&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="markdown" scheme="https://z-storm666.github.io/tags/markdown/"/>
+    
+    <category term="Typora" scheme="https://z-storm666.github.io/tags/Typora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于 GitHub Pages + Hexo 搭建个人博客</title>
+    <link href="https://z-storm666.github.io/2023/04/21/my-blog-build-remark/"/>
+    <id>https://z-storm666.github.io/2023/04/21/my-blog-build-remark/</id>
+    <published>2023-04-21T08:09:38.000Z</published>
+    <updated>2023-04-21T18:03:28.891Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;网上有很多种建立个人博客的方法，我浅薄的认为这种方法是最简单的一种。对我来说，在建立博客过程中也踩了不少坑，于是乎我整合多位大佬的回答加上我自己的理解写了这篇文章，一方面为这两天的努力做个总结，另一方面从新梳理一下建博客的过程（如果无意中能帮助到哪位，那我也很知足了）。&lt;/</summary>
+        
+      
+    
+    
+    
+    
+    <category term="NodeJS" scheme="https://z-storm666.github.io/tags/NodeJS/"/>
+    
+    <category term="Git" scheme="https://z-storm666.github.io/tags/Git/"/>
+    
+    <category term="npm" scheme="https://z-storm666.github.io/tags/npm/"/>
+    
+    <category term="cnpm" scheme="https://z-storm666.github.io/tags/cnpm/"/>
+    
+    <category term="hexo" scheme="https://z-storm666.github.io/tags/hexo/"/>
+    
+    <category term="matery" scheme="https://z-storm666.github.io/tags/matery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello friends!</title>
+    <link href="https://z-storm666.github.io/2023/04/20/hello-world/"/>
+    <id>https://z-storm666.github.io/2023/04/20/hello-world/</id>
+    <published>2023-04-20T08:09:38.000Z</published>
+    <updated>2023-04-21T18:07:04.238Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://z-storm666.github.io/&quot;&gt;my blog“雒河桥南 ”&lt;/a&gt;! I’ll share some interesting things here, thanks to GitHub for</summary>
+        
+      
+    
+    
+    
+    
+    <category term="blinkfox闪烁之狐" scheme="https://z-storm666.github.io/tags/blinkfox%E9%97%AA%E7%83%81%E4%B9%8B%E7%8B%90/"/>
+    
+    <category term="Hexo" scheme="https://z-storm666.github.io/tags/Hexo/"/>
+    
+    <category term="CSDN" scheme="https://z-storm666.github.io/tags/CSDN/"/>
+    
+    <category term="hexo-script" scheme="https://z-storm666.github.io/tags/hexo-script/"/>
+    
+  </entry>
+  
+</feed>

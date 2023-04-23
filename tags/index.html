@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签: Git, 雒河桥南">
+    <meta name="keywords" content="标签, 雒河桥南">
     <meta name="description" content="成功没有捷径">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签: Git | 雒河桥南</title>
+    <title>标签 | 雒河桥南</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -437,7 +437,7 @@
                 
                 <a href="/tags/Git/" title="Git: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-active "
+                             chip-default "
                             data-tagname="Git" style="background-color: #D7BDE2;">Git
                         <span class="tag-length">1</span>
                     </span>
@@ -485,43 +485,32 @@
 </div>
 
     
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
 
-    <article id="articles" class="container articles">
-        <div class="row tags-posts">
-            
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="NodeJS, Git, npm, cnpm, hexo, matery" data-aos="fade-up">
-                <div class="card">
-                    <a href="/2023/04/21/my-blog-build-remark/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="基于 GitHub Pages + Hexo 搭建个人博客">
-                            
-                            <span class="card-title">基于 GitHub Pages + Hexo 搭建个人博客</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-21
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                枫叶城南
-                                
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </article>
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"markdown","weight":1,"link":"/tags/markdown/"},{"text":"Typora","weight":1,"link":"/tags/Typora/"},{"text":"blinkfox闪烁之狐","weight":1,"link":"/tags/blinkfox闪烁之狐/"},{"text":"Hexo","weight":1,"link":"/tags/Hexo/"},{"text":"CSDN","weight":1,"link":"/tags/CSDN/"},{"text":"hexo-script","weight":1,"link":"/tags/hexo-script/"},{"text":"NodeJS","weight":1,"link":"/tags/NodeJS/"},{"text":"Git","weight":1,"link":"/tags/Git/"},{"text":"npm","weight":1,"link":"/tags/npm/"},{"text":"cnpm","weight":1,"link":"/tags/cnpm/"},{"text":"hexo","weight":1,"link":"/tags/hexo/"},{"text":"matery","weight":1,"link":"/tags/matery/"}], {
+        autoResize: true
+    });
+</script>
+
+    
+
 </main>
-
-
 
 
     <footer class="page-footer bg-color">
