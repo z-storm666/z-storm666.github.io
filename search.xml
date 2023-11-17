@@ -4,17 +4,36 @@
   
     
     <entry>
-      <title>Matlab2016a学习笔记</title>
-      <link href="/2023/09/21/matlab2016a%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-      <url>/2023/09/21/matlab2016a%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      <title>hexo+GithubPage博客历程回顾</title>
+      <link href="/2023/11/16/hexo+githubpage%E5%8D%9A%E5%AE%A2%E5%8E%86%E7%A8%8B%E5%9B%9E%E9%A1%BE/"/>
+      <url>/2023/11/16/hexo+githubpage%E5%8D%9A%E5%AE%A2%E5%8E%86%E7%A8%8B%E5%9B%9E%E9%A1%BE/</url>
       
-        <content type="html"><![CDATA[<p><img src="2023-05-18-10-33-47.png" alt=""><br><img src="/source/image.png" alt=""></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="hexo-GithubPage博客历程回顾"><a href="#hexo-GithubPage博客历程回顾" class="headerlink" title="hexo+GithubPage博客历程回顾"></a>hexo+GithubPage博客历程回顾</h1><h2 id="一、搭建及配置博客"><a href="#一、搭建及配置博客" class="headerlink" title="一、搭建及配置博客"></a>一、搭建及配置博客</h2><p>1、<a href="https://blog.csdn.net/qq_43285335/article/details/90696126">nodejs下载安装及配置环境_node的下载和安装-CSDN博客</a></p><p>2、<a href="https://zhuanlan.zhihu.com/p/475225685">基于Hexo的matery主题搭建博客 - 知乎 (zhihu.com)</a></p><p>hexo clean 命令（可以清理生成的页面文件。当配置未生效时，建议执行清理命令。）</p><p>hexo generate # 生成页面，此命令可以简写为 <code>hexo g</code>   （通过 <code>hexo g</code> 生成的页面文件在项目 <code>public</code> 目录下；）<br>hexo server # 本地启动，可简写为 <code>hexo s</code></p><p>部署，等价于(可简写为)： <code>hexo d</code></p><p>3、<a href="https://hexo.fluid-dev.com/docs/">Hexo Fluid 用户手册 (fluid-dev.com)</a></p><p>4、评论系统<a href="https://utteranc.es/">utterances</a></p><blockquote><p><a href="https://lizhening.github.io/posts/852186e5/">基于fluid主题的Hexo博客中添加评论 - Hexo (lizhening.github.io)</a></p><p><a href="https://blog.njilc.com/post/self-hosted-utterances-tutorial">自托管Utterances教程：基于Github Issues的轻量级博客评论系统 - ConGerh Blog (njilc.com)</a></p></blockquote><h2 id="二、写博客"><a href="#二、写博客" class="headerlink" title="二、写博客"></a>二、写博客</h2>]]></content>
       
       
       
         <tags>
             
-            <tag> matlab2016a </tag>
+            <tag> hexo+GithubPage </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客图片无法显示的解决办法</title>
+      <link href="/2023/11/16/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+      <url>/2023/11/16/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="博客图片无法显示的解决办法"><a href="#博客图片无法显示的解决办法" class="headerlink" title="博客图片无法显示的解决办法"></a>博客图片无法显示的解决办法</h1><p>在博客搭建完成之后，要显示图片，把图片直接引用之后发现无法显示，查了好多文章试了都不起作用。</p><blockquote><p>之前用npm install 一个hexo-asset-image的依赖</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs awk">&gt;npm install https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp"><code class="language-hljs awk">&gt;npm install https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/CodeFalling/</span>hexo-asset-image --save<br></code></pre></td></tr></table></figure><p>这里我们先把他删除</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs awk">&gt;npm uninstall https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp"><code class="language-hljs awk">&gt;npm uninstall https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/CodeFalling/</span>hexo-asset-image --save<br></code></pre></td></tr></table></figure><p>然后</p><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs ada">&gt;npm install hexo-renderer-marked <span class="hljs-comment"><code class="language-hljs ada">&gt;npm install hexo-renderer-marked <span class="hljs-comment">--save</span><br></code></pre></td></tr></table></figure><p>接下来在_config.yaml文件中更改配置，CTRL+F找到post_asset_folder那一行，更改并添加以下内容</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre class=" language-hljs shell"><span class="hljs-meta prompt_">&gt;</span><span class="language-bash">post_asset_folder: <span class="hljs-literal">true</span> <span class="hljs-comment">#这个配置的意思是每次new post一个博客，会增加一个和博客同名的文件夹。</span></span><br><span class="hljs-meta prompt_">&gt;</span><span class="language-bash">marked:</span><br><span class="hljs-meta prompt_">&gt;</span><span class="language-bash">prependRoot: <span class="hljs-literal">true</span></span><br><span class="hljs-meta prompt_">&gt;</span><span class="language-bash">postAsset: <span class="hljs-literal"><code class="language-hljs shell"><span class="hljs-meta prompt_">&gt;</span><span class="language-bash">post_asset_folder: <span class="hljs-literal">true</span> <span class="hljs-comment">#这个配置的意思是每次new post一个博客，会增加一个和博客同名的文件夹。</span></span><br><span class="hljs-meta prompt_">&gt;</span><span class="language-bash">marked:</span><br><span class="hljs-meta prompt_">&gt;</span><span class="language-bash">prependRoot: <span class="hljs-literal">true</span></span><br><span class="hljs-meta prompt_">&gt;</span><span class="language-bash">postAsset: <span class="hljs-literal">true</span></span><br></code></pre></td></tr></table></figure><p>之后把需要使用的图片资源放入文章对应名称的文件夹中，在文章中使用<img src="image.jpg" alt="">就可以引用图片了<br>注意写路径时不用包含文件夹名，直接使用图片名称(如：image.jpg)</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 图片显示问题 </tag>
             
         </tags>
       
@@ -27,13 +46,32 @@
       <link href="/2023/09/21/hexo%E6%8C%87%E4%BB%A4/"/>
       <url>/2023/09/21/hexo%E6%8C%87%E4%BB%A4/</url>
       
-        <content type="html"><![CDATA[<p>paste Image:<a href="https://blog.csdn.net/javahighness/article/details/90454136">https://blog.csdn.net/javahighness/article/details/90454136</a><br>利用Paste Image插件给md文档添加截图：ctrl+alt+v<br><img src="image.png" alt="Alt text"></p>]]></content>
+        <content type="html"><![CDATA[<p>paste Image:<a href="https://blog.csdn.net/javahighness/article/details/90454136">https://blog.csdn.net/javahighness/article/details/90454136</a><br>利用Paste Image插件给md文档添加截图：ctrl+alt+v<br><img src="image.png" alt=""></p>]]></content>
       
       
       
         <tags>
             
             <tag> HEXO </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Matlab2016a学习笔记</title>
+      <link href="/2023/09/21/matlab2016a%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2023/09/21/matlab2016a%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<p><img src="2023-05-18-10-33-47.png" alt=""><br><img src="image.png" alt=""></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> matlab2016a </tag>
             
         </tags>
       
@@ -67,7 +105,7 @@
       <link href="/2023/04/21/my-blog-build-remark/"/>
       <url>/2023/04/21/my-blog-build-remark/</url>
       
-        <content type="html"><![CDATA[<p>网上有很多种建立个人博客的方法，我浅薄的认为这种方法是最简单的一种。对我来说，在建立博客过程中也踩了不少坑，于是乎我整合多位大佬的回答加上我自己的理解写了这篇文章，一方面为这两天的努力做个总结，另一方面从新梳理一下建博客的过程（如果无意中能帮助到哪位，那我也很知足了）。</p><h1 id="首先"><a href="#首先" class="headerlink" title="首先"></a><strong>首先</strong></h1><h2 id="1、Github"><a href="#1、Github" class="headerlink" title="1、Github"></a>1、Github</h2><h6 id="没有账号的需要注册个账号，进不去网址或者访问慢的话可以用这个工具FastGithub（FastGithub-是一款-github-加速工具，可以解决-github-打不开、用户头像无法加载、releases-无法上传下载、git-clone、git-pull、git-push-失败等问题。项目地址）"><a href="#没有账号的需要注册个账号，进不去网址或者访问慢的话可以用这个工具FastGithub（FastGithub-是一款-github-加速工具，可以解决-github-打不开、用户头像无法加载、releases-无法上传下载、git-clone、git-pull、git-push-失败等问题。项目地址）" class="headerlink" title="没有账号的需要注册个账号，进不去网址或者访问慢的话可以用这个工具FastGithub（FastGithub 是一款 github 加速工具，可以解决 github 打不开、用户头像无法加载、releases 无法上传下载、git-clone、git-pull、git-push 失败等问题。项目地址）"></a>没有账号的需要注册个账号，进不去网址或者访问慢的话可以用这个工具<a href="https://musetransfer.com/s/aswktrojo">FastGithub</a>（FastGithub 是一款 github 加速工具，可以解决 github 打不开、用户头像无法加载、releases 无法上传下载、git-clone、git-pull、git-push 失败等问题。<a href="https://github.com/dotnetcore/fastgithub/releases">项目地址</a>）</h6><h3 id="①注册GitHub方法步骤"><a href="#①注册GitHub方法步骤" class="headerlink" title="①注册GitHub方法步骤"></a><a href="https://blog.csdn.net/yaorongke/article/details/119086305">①注册GitHub方法步骤</a></h3><h3 id="②创建仓库-amp-GitHub-Pages-搭建"><a href="#②创建仓库-amp-GitHub-Pages-搭建" class="headerlink" title="②创建仓库&amp;GitHub Pages 搭建"></a>②创建仓库&amp;GitHub Pages 搭建</h3><p>在<code>GitHub</code>上创建一个新的代码仓库用于保存我们的网页。</p><p>点击<code>Your repositories</code>，进入仓库页面。<br><img src="/source/2023-04-28-23-42-48.png" alt="picture"></p><p>点击<code>New</code>按钮，进入仓库创建页面。<br><img src="/source/2023-04-28-23-45-10.png" alt="picture"></p><p>填写仓库名，格式必须为<code>&lt;用户名&gt;.github.io</code>，然后点击<code>Create repository</code>。<br><img src="/source/2023-04-28-23-51-58.png" alt="picture"></p><p>点击<code>creating a new file</code>创建一个新文件，作为我们网站的主页。<br><img src="/source/2023-04-28-23-53-35.png" alt="picture"></p><p>新文件的名字必须为<code>index.html</code>，内容先随便写一个简单的，内容示例如下，填写之后点击<code>Commit new file</code>提交。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre class=" language-hljs bash">&lt;!DOCTYPE html&gt;<br>&lt;html lang=<span class="hljs-string">&quot;en&quot;</span>&gt;<br>&lt;<span class="hljs-built_in">head</span>&gt;<br>    &lt;meta charset=<span class="hljs-string"><code class="language-hljs bash">&lt;!DOCTYPE html&gt;<br>&lt;html lang=<span class="hljs-string">&quot;en&quot;</span>&gt;<br>&lt;<span class="hljs-built_in">head</span>&gt;<br>    &lt;meta charset=<span class="hljs-string">"UTF-8"</span>><br>    <title>yaorongke</title><br></head><br><body><br>    <h1>Hello World!!!!!!</h1><br>    <h1>Hello ~</h1><br></body><br></html><br><br></code></pre></td></tr></table></figure><p><img src="/source/2023-04-28-23-38-17.png" alt="picture"></p><p>在 <GitHub用户名>.github.io 仓库对应的 GitHub Pages 设置页面 (访问路径为 Settings -&gt; Pages) 可以找到个人博客的主页访问地址：<strong>https://<GitHub 用户名>.github.io。</strong><br><img src="/source/2023-04-28-23-55-58.png" alt="picture"></p><p>若能在浏览器中正常访问该地址，显示<strong>Hello World!!!!!!</strong>即代表个人 GitHub Pages 搭建成功。</p><p>More info: <a href="https://blog.csdn.net/yaorongke/article/details/119089190"> GitHub Pages + Hexo搭建个人博客网站，史上最全教程_淡淡的说非的博客-CSDN博客</a>)</p><h3 id="③安装-Git-和-NodeJS"><a href="#③安装-Git-和-NodeJS" class="headerlink" title="③安装 Git 和 NodeJS"></a>③<strong>安装 Git 和 NodeJS</strong></h3><p><strong><a href="https://nodejs.org/en/download/">NodeJS下载</a></strong>注意：下载.msi格式，安装更为方便<br><img src="/source/2023-04-28-23-57-47.png" alt="picture"></p>]]></content>
+        <content type="html"><![CDATA[<p>网上有很多种建立个人博客的方法，我浅薄的认为这种方法是最简单的一种。对我来说，在建立博客过程中也踩了不少坑，于是乎我整合多位大佬的回答加上我自己的理解写了这篇文章，一方面为这两天的努力做个总结，另一方面从新梳理一下建博客的过程（如果无意中能帮助到哪位，那我也很知足了）。</p><h1 id="首先"><a href="#首先" class="headerlink" title="首先"></a><strong>首先</strong></h1><h2 id="1、Github"><a href="#1、Github" class="headerlink" title="1、Github"></a>1、Github</h2><h6 id="没有账号的需要注册个账号，进不去网址或者访问慢的话可以用这个工具FastGithub（FastGithub-是一款-github-加速工具，可以解决-github-打不开、用户头像无法加载、releases-无法上传下载、git-clone、git-pull、git-push-失败等问题。项目地址）"><a href="#没有账号的需要注册个账号，进不去网址或者访问慢的话可以用这个工具FastGithub（FastGithub-是一款-github-加速工具，可以解决-github-打不开、用户头像无法加载、releases-无法上传下载、git-clone、git-pull、git-push-失败等问题。项目地址）" class="headerlink" title="没有账号的需要注册个账号，进不去网址或者访问慢的话可以用这个工具FastGithub（FastGithub 是一款 github 加速工具，可以解决 github 打不开、用户头像无法加载、releases 无法上传下载、git-clone、git-pull、git-push 失败等问题。项目地址）"></a>没有账号的需要注册个账号，进不去网址或者访问慢的话可以用这个工具<a href="https://musetransfer.com/s/aswktrojo">FastGithub</a>（FastGithub 是一款 github 加速工具，可以解决 github 打不开、用户头像无法加载、releases 无法上传下载、git-clone、git-pull、git-push 失败等问题。<a href="https://github.com/dotnetcore/fastgithub/releases">项目地址</a>）</h6><h3 id="①注册GitHub方法步骤"><a href="#①注册GitHub方法步骤" class="headerlink" title="①注册GitHub方法步骤"></a><a href="https://blog.csdn.net/yaorongke/article/details/119086305">①注册GitHub方法步骤</a></h3><h3 id="②创建仓库-amp-GitHub-Pages-搭建"><a href="#②创建仓库-amp-GitHub-Pages-搭建" class="headerlink" title="②创建仓库&amp;GitHub Pages 搭建"></a>②创建仓库&amp;GitHub Pages 搭建</h3><p>在<code>GitHub</code>上创建一个新的代码仓库用于保存我们的网页。</p><p>点击<code>Your repositories</code>，进入仓库页面。<br><img src="2023-04-28-23-42-48.png" alt="picture"></p><p>点击<code>New</code>按钮，进入仓库创建页面。<br><img src="2023-04-28-23-45-10.png" alt="picture"></p><p>填写仓库名，格式必须为<code>&lt;用户名&gt;.github.io</code>，然后点击<code>Create repository</code>。<br><img src="2023-04-28-23-51-58.png" alt="picture"></p><p>点击<code>creating a new file</code>创建一个新文件，作为我们网站的主页。<br><img src="2023-04-28-23-53-35.png" alt="picture"></p><p>新文件的名字必须为<code>index.html</code>，内容先随便写一个简单的，内容示例如下，填写之后点击<code>Commit new file</code>提交。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre class=" language-hljs bash">&lt;!DOCTYPE html&gt;<br>&lt;html lang=<span class="hljs-string">&quot;en&quot;</span>&gt;<br>&lt;<span class="hljs-built_in">head</span>&gt;<br>    &lt;meta charset=<span class="hljs-string"><code class="language-hljs bash">&lt;!DOCTYPE html&gt;<br>&lt;html lang=<span class="hljs-string">&quot;en&quot;</span>&gt;<br>&lt;<span class="hljs-built_in">head</span>&gt;<br>    &lt;meta charset=<span class="hljs-string">"UTF-8"</span>><br>    <title>yaorongke</title><br></head><br><body><br>    <h1>Hello World!!!!!!</h1><br>    <h1>Hello ~</h1><br></body><br></html><br></code></pre></td></tr></table></figure><br>然后<br><img src="2023-04-28-23-38-17.png" alt="picture"><br>在 <GitHub用户名>.github.io 仓库对应的 GitHub Pages 设置页面 (访问路径为 Settings -&gt; Pages) 可以找到个人博客的主页访问地址：<strong>https://<GitHub 用户名>.github.io。</strong><br><img src="2023-04-28-23-55-58.png" alt="picture"></p><p>若能在浏览器中正常访问该地址，显示<strong>Hello World!!!!!!</strong>即代表个人 GitHub Pages 搭建成功。</p><p>More info: <a href="https://blog.csdn.net/yaorongke/article/details/119089190"> GitHub Pages + Hexo搭建个人博客网站，史上最全教程_淡淡的说非的博客-CSDN博客</a>)</p><h3 id="③安装-Git-和-NodeJS"><a href="#③安装-Git-和-NodeJS" class="headerlink" title="③安装 Git 和 NodeJS"></a>③<strong>安装 Git 和 NodeJS</strong></h3><p><strong><a href="https://nodejs.org/en/download/">NodeJS下载</a></strong>注意：下载.msi格式，安装更为方便<br><img src="2023-04-28-23-57-47.png" alt="picture"></p>]]></content>
       
       
       
