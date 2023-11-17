@@ -6,7 +6,7 @@
   <link href="https://z-storm666.github.io/atom.xml" rel="self"/>
   
   <link href="https://z-storm666.github.io/"/>
-  <updated>2023-11-17T02:23:06.810Z</updated>
+  <updated>2023-11-17T03:33:50.531Z</updated>
   <id>https://z-storm666.github.io/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo+GithubPage博客历程回顾</title>
+    <title>hexo + GithubPage 搭建博客历程回顾2</title>
     <link href="https://z-storm666.github.io/2023/11/16/hexo+githubpage%E5%8D%9A%E5%AE%A2%E5%8E%86%E7%A8%8B%E5%9B%9E%E9%A1%BE/"/>
     <id>https://z-storm666.github.io/2023/11/16/hexo+githubpage%E5%8D%9A%E5%AE%A2%E5%8E%86%E7%A8%8B%E5%9B%9E%E9%A1%BE/</id>
     <published>2023-11-16T13:09:38.000Z</published>
-    <updated>2023-11-17T02:23:06.810Z</updated>
+    <updated>2023-11-17T03:33:50.531Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;hexo-GithubPage博客历程回顾&quot;&gt;&lt;a href=&quot;#hexo-GithubPage博客历程回顾&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;hexo-GithubPage博客历程回顾2&quot;&gt;&lt;a href=&quot;#hexo-GithubPage博客历程回顾2&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -134,18 +134,18 @@
   </entry>
   
   <entry>
-    <title>基于 GitHub Pages + Hexo 搭建个人博客</title>
+    <title>hexo + GithubPage 搭建博客历程回顾1</title>
     <link href="https://z-storm666.github.io/2023/04/21/my-blog-build-remark/"/>
     <id>https://z-storm666.github.io/2023/04/21/my-blog-build-remark/</id>
     <published>2023-04-21T08:09:38.000Z</published>
-    <updated>2023-11-17T02:05:09.313Z</updated>
+    <updated>2023-11-17T03:08:25.451Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;网上有很多种建立个人博客的方法，我浅薄的认为这种方法是最简单的一种。对我来说，在建立博客过程中也踩了不少坑，于是乎我整合多位大佬的回答加上我自己的理解写了这篇文章，一方面为这两天的努力做个总结，另一方面从新梳理一下建博客的过程（如果无意中能帮助到哪位，那我也很知足了）。&lt;/</summary>
+    <summary type="html">&lt;h1 id=&quot;hexo-GithubPage博客历程回顾1&quot;&gt;&lt;a href=&quot;#hexo-GithubPage博客历程回顾1&quot; class=&quot;headerlink&quot;</summary>
         
       
     
